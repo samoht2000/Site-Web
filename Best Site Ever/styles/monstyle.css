@@ -1,0 +1,37 @@
+header{
+    background-color: #222;
+    height : 200px;
+}
+
+header *{
+    vertical-align: middle;
+    margin : 10px;
+    color: white;
+    text-decoration: none;
+}
+
+nav{
+    background-color: deepskyblue;
+    height : 75px;
+}
+
+form{
+    display: inline;
+}
+
+main p{
+    text-decoration: none;
+
+}
+
+footer{
+    background-color: #222;
+    height: 200px;
+}
+
+footer a{
+    vertical-align: middle;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
