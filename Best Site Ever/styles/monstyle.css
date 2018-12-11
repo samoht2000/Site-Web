@@ -1,6 +1,3 @@
-
-/* Style du site web amarchand*/
-
 /* Header :*/
 
 header{
@@ -28,9 +25,51 @@ form{
 
 /* Main */
 
+/* -Divers */
 
+.prix{
+    text-align:right;
+    color : red;
+    font-size : 40px;
+}
 
-/* Page résultat de recherche */
+/* Page d'accueil */
+
+.promo1{
+    border: 1px solid orangered;
+    border-radius: 10px;
+    padding: 10px;
+    overflow: auto;
+    margin-bottom: 10px;
+}
+
+.promo1 img{
+    float:left;
+    height: 240px;
+    margin-right: 30px;
+}
+
+.reduction{
+    text-align:right;
+    color: red;
+    font-size: 50px;
+}
+
+.prixbarre{
+    text-align:left;
+    text-decoration: line-through;
+    font-size:25px;
+}
+
+.prixbarre{
+    display: inline;
+}
+
+.prix{
+    display: inline;
+}
+
+/* -Page résultat de recherche */
 
 .recherche{
     border: 1px solid orangered;
@@ -42,6 +81,7 @@ form{
 
 .recherche img{
     float: left;
+    margin-right: 30px;
 }
 
 .reference{
@@ -52,11 +92,6 @@ form{
     text-align:right;
 }
 
-.prix{
-    text-align:right;
-    color : red;
-    font-size : 40px;
-}
 
 /* Footer*/
 
